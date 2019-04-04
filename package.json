@@ -1,0 +1,13 @@
+{
+  "name": "deploy-gcp-bucket",
+  "description": "Docker image used to deploy GCP buckets on a server",
+  "private": true,
+  "version": "1.0.0",
+  "author": "Zakodium Sàrl",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "envalid": "^4.2.2",
+    "execa": "^1.0.0",
+    "make-promises-safe": "^5.0.0"
+  }
+}
