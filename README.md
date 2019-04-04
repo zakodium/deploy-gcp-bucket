@@ -30,7 +30,6 @@ services:
 You need to launch the login command once every time the container is recreated:
 
 ```console
-docker-compose up -d deploy-front
 docker-compose exec deploy-front node login
 ```
 
