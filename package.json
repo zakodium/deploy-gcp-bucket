@@ -6,8 +6,8 @@
   "author": "Zakodium Sàrl",
   "license": "UNLICENSED",
   "dependencies": {
-    "envalid": "^6.0.0",
-    "execa": "^4.0.0",
+    "envalid": "^6.0.2",
+    "execa": "^4.1.0",
     "make-promises-safe": "^5.1.0"
   }
 }
