@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.2](https://www.github.com/zakodium/deploy-gcp-bucket/compare/v1.0.1...v1.0.2) (2021-06-23)
+
+
+### Bug Fixes
+
+* correct docker build ([d8334aa](https://www.github.com/zakodium/deploy-gcp-bucket/commit/d8334aa1fdecd6ec064e09bf2e359b487f17d64d))
+
 ### [1.0.1](https://www.github.com/zakodium/deploy-gcp-bucket/compare/v1.0.0...v1.0.1) (2021-06-23)
 
 
