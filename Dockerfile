@@ -7,6 +7,7 @@ RUN echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] http://packages.c
 USER node
 ENV NODE_ENV=production
 WORKDIR /script
+RUN chown node:node /script
 
 COPY package*.json ./
 RUN npm ci
