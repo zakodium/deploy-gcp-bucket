@@ -2,12 +2,29 @@
   "name": "deploy-gcp-bucket",
   "description": "Docker image used to deploy GCP buckets on a server",
   "private": true,
-  "version": "1.0.0",
+  "version": "0.0.0",
   "author": "Zakodium Sàrl",
   "license": "UNLICENSED",
+  "type": "module",
+  "scripts": {
+    "eslint": "eslint .",
+    "eslint-fix": "npm run eslint -- --fix",
+    "prettier": "prettier --check .",
+    "prettier-write": "prettier --write .",
+    "test": "npm run eslint && npm run prettier"
+  },
+  "volta": {
+    "node": "16.4.0"
+  },
   "dependencies": {
-    "envalid": "^6.0.2",
-    "execa": "^4.1.0",
-    "make-promises-safe": "^5.1.0"
+    "envalid": "^7.1.0",
+    "execa": "^5.1.1"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.14.7",
+    "@babel/plugin-syntax-top-level-await": "^7.14.5",
+    "@zakodium/eslint-config": "^3.0.2",
+    "eslint": "^7.29.0",
+    "prettier": "^2.3.1"
   }
 }

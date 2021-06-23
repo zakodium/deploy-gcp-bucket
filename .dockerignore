@@ -1,3 +1,7 @@
 node_modules
+.git
+.github
 .gitignore
+.eslintrc.yml
+.prettierrc.json
 README.md

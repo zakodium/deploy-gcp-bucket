@@ -1,12 +1,16 @@
-FROM google/cloud-sdk:alpine
+FROM node:16
 
-RUN apk add --update nodejs npm
+# Install Google Cloud SDK
+# See https://cloud.google.com/sdk/docs/install#deb
+RUN echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] http://packages.cloud.google.com/apt cloud-sdk main" | tee -a /etc/apt/sources.list.d/google-cloud-sdk.list && curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key --keyring /usr/share/keyrings/cloud.google.gpg  add - && apt-get update -y && apt-get install google-cloud-sdk -y
 
+USER node
+ENV NODE_ENV=production
 WORKDIR /script
 
-COPY package*.json /script/
+COPY package*.json ./
 RUN npm ci
 
-COPY login.js deploy.js /script/
+COPY login.js deploy.js ./
 
 CMD ["tail", "-f", "/dev/null"]
