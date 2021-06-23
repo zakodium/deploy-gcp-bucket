@@ -9,7 +9,7 @@ In `docker-compose.yml`, add a service with a configuration as the following:
 ```yml
 services:
   deploy-front:
-    image: zakodium/deploy-gcp-bucket
+    image: ghcr.io/zakodium/deploy-gcp-bucket
     environment:
       # Name of the Google Cloud Storage bucket that holds the releases.
       DEPLOY_BUCKET_NAME: my-release-bucket
