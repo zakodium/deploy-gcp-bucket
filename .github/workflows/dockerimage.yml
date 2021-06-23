@@ -33,10 +33,10 @@ jobs:
 
       - name: Log in to registry
         run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login $REGISTRY -u ${{ github.actor }} --password-stdin
-      
+
       - name: Push image (manual)
         if: github.event_name == 'workflow_dispatch'
-        run: | 
+        run: |
           IMAGE_ID="${REGISTRY}/${IMAGE_NAME}"
           # Change all uppercase to lowercase
           IMAGE_ID=$(echo $IMAGE_ID | tr '[A-Z]' '[a-z]')
