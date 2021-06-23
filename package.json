@@ -2,7 +2,7 @@
   "name": "deploy-gcp-bucket",
   "description": "Docker image used to deploy GCP buckets on a server",
   "private": true,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Zakodium Sàrl",
   "license": "MIT",
   "type": "module",
