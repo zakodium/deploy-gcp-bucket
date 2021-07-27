@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.3](https://www.github.com/zakodium/deploy-gcp-bucket/compare/v1.0.2...v1.0.3) (2021-07-27)
+
+
+### Bug Fixes
+
+* add parallelism to rsync command ([9dc5bd7](https://www.github.com/zakodium/deploy-gcp-bucket/commit/9dc5bd70c5b85c40a752b0d1c4a66a95c6044fe9))
+
 ### [1.0.2](https://www.github.com/zakodium/deploy-gcp-bucket/compare/v1.0.1...v1.0.2) (2021-06-23)
 
 
