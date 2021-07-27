@@ -40,6 +40,7 @@ if (result.stderr && result.stderr.includes('No credentialed accounts.')) {
 
 console.log(`Deploying ${version}`);
 const exec = execa('gsutil', [
+  '-m',
   'rsync',
   '-r',
   '-d',
