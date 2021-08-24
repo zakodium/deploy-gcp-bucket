@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.4](https://www.github.com/zakodium/deploy-gcp-bucket/compare/v1.0.3...v1.0.4) (2021-08-24)
+
+
+### Bug Fixes
+
+* do not use node user ([#6](https://www.github.com/zakodium/deploy-gcp-bucket/issues/6)) ([d24e3c5](https://www.github.com/zakodium/deploy-gcp-bucket/commit/d24e3c5a19e797699010b6665a7a3305904d3862))
+
 ### [1.0.3](https://www.github.com/zakodium/deploy-gcp-bucket/compare/v1.0.2...v1.0.3) (2021-07-27)
 
 
