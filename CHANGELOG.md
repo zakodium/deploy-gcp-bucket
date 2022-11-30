@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.5](https://www.github.com/zakodium/deploy-gcp-bucket/compare/v1.0.4...v1.0.5) (2022-11-30)
+
+
+### Bug Fixes
+
+* exit with error code 0 when already logged in ([3f0768a](https://www.github.com/zakodium/deploy-gcp-bucket/commit/3f0768aefa24ea28df81959e9aec7c5213a2c776))
+
 ### [1.0.4](https://www.github.com/zakodium/deploy-gcp-bucket/compare/v1.0.3...v1.0.4) (2021-08-24)
 
 
