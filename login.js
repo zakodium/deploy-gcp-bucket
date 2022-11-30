@@ -8,7 +8,7 @@ const keyPath = '/gcp-key.json';
 const result = await execa('gcloud', ['auth', 'list']);
 if (!result.stderr.includes('No credentialed accounts')) {
   console.error('You are already logged in');
-  process.exit(1);
+  process.exit(0);
 }
 
 // Verify existence of key file
